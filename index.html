@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Product Page</title>
+</head>
+<body>
+
+    <div class="product-container">
+        <div class="product-images">
+            <img src="C:\Users\Shrutish\Desktop\gift hamper.jpg" alt="Birthday Gift Hamper">
+        </div>
+        <div class="product-details">
+            <h2>Birthday Gift Hamper</h2>
+            <p class="description">This gift hamper contains various products in it. It contains chocholates, watch, beauty products, hair products, perfumes, etc. 
+It contains various fun products which can be gifted to anyone on their birthdays. </p>
+            <p class="price">$20</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="cart-container">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0.00</span></p>
+        <button onclick="viewCart()">View Cart</button>
+    </div>
+
+</body>
+</html>
